@@ -14,17 +14,6 @@ def play(board)
   end
 end
 
-def pplay(board)
-  turn(board)
-  puts "TEST"
-  counter=1
-  while counter<=9
-    if !over?(board)
-      turn(board)
-    end
-  end
-end
-
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
